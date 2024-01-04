@@ -7,7 +7,7 @@ const PreferenceForm = ({ onSubmit }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    onSubmit({ with_genres: genre, primary_release_year: releaseYear });
+    onSubmit({ genre, releaseYear });
   };
 
   return (
